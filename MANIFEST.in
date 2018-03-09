@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include arabay *.css
+recursive-include arabay *.csv
+recursive-include arabay *.html
+recursive-include arabay *.ico
+recursive-include arabay *.js
+recursive-include arabay *.json
+recursive-include arabay *.md
+recursive-include arabay *.png
+recursive-include arabay *.py
+recursive-include arabay *.svg
+recursive-include arabay *.txt
+recursive-exclude arabay *.pyc
